@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/here-we-go/static/js/main.c4dd12b6.chunk.js",
-    "main.js.map": "/here-we-go/static/js/main.c4dd12b6.chunk.js.map",
-    "runtime-main.js": "/here-we-go/static/js/runtime-main.c795dfcd.js",
-    "runtime-main.js.map": "/here-we-go/static/js/runtime-main.c795dfcd.js.map",
-    "static/js/2.ede99ffd.chunk.js": "/here-we-go/static/js/2.ede99ffd.chunk.js",
-    "static/js/2.ede99ffd.chunk.js.map": "/here-we-go/static/js/2.ede99ffd.chunk.js.map",
+    "main.js": "/here-we-go/static/js/main.bd8c76bd.chunk.js",
+    "main.js.map": "/here-we-go/static/js/main.bd8c76bd.chunk.js.map",
+    "runtime-main.js": "/here-we-go/static/js/runtime-main.64fcf5f4.js",
+    "runtime-main.js.map": "/here-we-go/static/js/runtime-main.64fcf5f4.js.map",
+    "static/js/2.2ec2687d.chunk.js": "/here-we-go/static/js/2.2ec2687d.chunk.js",
+    "static/js/2.2ec2687d.chunk.js.map": "/here-we-go/static/js/2.2ec2687d.chunk.js.map",
     "index.html": "/here-we-go/index.html",
-    "static/js/2.ede99ffd.chunk.js.LICENSE.txt": "/here-we-go/static/js/2.ede99ffd.chunk.js.LICENSE.txt",
+    "static/js/2.2ec2687d.chunk.js.LICENSE.txt": "/here-we-go/static/js/2.2ec2687d.chunk.js.LICENSE.txt",
     "static/media/folder1.19ee5925.svg": "/here-we-go/static/media/folder1.19ee5925.svg",
     "static/media/folder2.48c73e12.svg": "/here-we-go/static/media/folder2.48c73e12.svg",
     "static/media/folder3.af159eb4.svg": "/here-we-go/static/media/folder3.af159eb4.svg",
@@ -15,8 +15,8 @@
     "static/media/terminalIcon.54f405ff.svg": "/here-we-go/static/media/terminalIcon.54f405ff.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.c795dfcd.js",
-    "static/js/2.ede99ffd.chunk.js",
-    "static/js/main.c4dd12b6.chunk.js"
+    "static/js/runtime-main.64fcf5f4.js",
+    "static/js/2.2ec2687d.chunk.js",
+    "static/js/main.bd8c76bd.chunk.js"
   ]
 }
