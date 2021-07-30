@@ -41,7 +41,7 @@ const useStyle = makeStyles((theme) => ({
 }));
 
 const defaultHelpOutput =
-  "following commands are availabler\nls : list content in current directory\ncd : cd <directoryName>\nopen : open <fileName>";
+  "following commands are available\nls : list content in current directory\ncd : cd <directoryName>\nopen : open <fileName>";
 
 const defaultHistory = [
   {
@@ -139,7 +139,8 @@ const Terminal = ({ terminalId }) => {
         output = "invalid command";
         break;
     }
-    const obj = { path, input, output };
+    const inputs = [input, ...extra].join(" ");
+    const obj = { path, input: inputs, output };
     console.log(obj);
     setTerminalHistory([...terminalHistory, obj]);
   };
@@ -150,7 +151,7 @@ const Terminal = ({ terminalId }) => {
       : "";
     const terminalRowOutput = obj.isError ? classes.terminalRowError : "";
     const key = `terminalHistoryRow${index}`;
-
+    console.log("writing input ", obj);
     return (
       <Grid item key={key} className={classes.terminalRowHistory}>
         <Grid item className={classes.terminalRowInput}>

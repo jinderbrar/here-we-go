@@ -5,6 +5,7 @@ import { makeStyles } from "@material-ui/core";
 import Taskbar from "./components/Taskbar";
 import Terminal from "./components/Terminal";
 import Stopwatch from "./components/Stopwatch";
+import Explorer from "./components/Explorer";
 import Experiment from "./components/Experiment";
 import { connect } from "react-redux";
 
@@ -27,6 +28,8 @@ const renderApp = (app) => {
       return <Terminal />;
     case appType.STOPWATCH:
       return <Stopwatch />;
+    case appType.EXPLORER:
+      return <Explorer />;
     default:
       return;
   }

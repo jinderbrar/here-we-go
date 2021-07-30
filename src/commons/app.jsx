@@ -12,6 +12,7 @@ export const HIDE_APP = "HIDE_APP";
 export const appType = {
   TERMINAL: "TERMINAL",
   STOPWATCH: "STOPWATCH",
+  EXPLORER: "EXPLORER",
 };
 
 export const defaultApps = {
@@ -28,15 +29,15 @@ export const defaultApps = {
     title: "Stopwatch",
     defaultPosition: { x: 450, y: 0 },
     iconSrc: stopwatchIcon,
-    isOpen: false,
+    isOpen: true,
     isHidden: false,
   },
   EXPLORER: {
     id: "EXPLORER",
-    title: "File Explorer",
+    title: "Explorer",
     defaultPosition: { x: 450, y: 400 },
     iconSrc: folderIcon3,
-    isOpen: true,
+    isOpen: false,
     isHidden: false,
   },
 };
